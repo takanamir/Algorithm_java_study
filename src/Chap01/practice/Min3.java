@@ -6,11 +6,13 @@ public class Min3 {
 	//--- a, b, cの最小値を求めて返却 ---//
 	private static int min3(int a, int b, int c) {
 		int min = a; // 最小値
-		if (b < min)
+		if (b < min) {
 			min = b;
-		if (c < min)
+		}
+		if (c < min) {
 			min = c;
-
+		}
+			
 		return min;
 	}
 
